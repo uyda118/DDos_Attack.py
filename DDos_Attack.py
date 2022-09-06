@@ -212,9 +212,7 @@ def prevent():
     if '192.168' in ip or '127.0' in ip or '172.16' in ip or 'localhost' in ip :
         print("Error Ip range!")
         exit()
-    if 'gov' in ip or 'edu' in ip:
-        print("Can't attack .gov or .edu website!")
-        exit()
+   
 def main():
     global ip
     global port
